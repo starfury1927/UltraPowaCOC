@@ -3,7 +3,7 @@
 Due to some complications with secure data and the repo as a whole,  
 A different method will be used to approach adding users.
 
-##Ultrapowa Clash Server
+##Ultrapowa Cash Server
 
 An fucked, badly coded Clash Of Clans server that has a huge and awesome kid community background just to rock and roll the base. It is not bug free and you can't create your own private server like others have. Don't come and join our community!
 
