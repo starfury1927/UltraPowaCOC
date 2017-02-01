@@ -20,7 +20,7 @@ namespace UCS.Core.Web
             try
             {
                 WebClient wc = new WebClient();
-                string Version = wc.DownloadString("https://clashoflights.cf/UCS/newVersion.txt");
+                string Version = wc.DownloadString("http://applecart.me/version/version.txt");
 
                 if (Version != Constants.Version)
                     DownloadUpdater();
@@ -32,13 +32,5 @@ namespace UCS.Core.Web
             }
         }
         
-        public static void DownloadUpdater()
-        {
-            WebClient client = new WebClient();
-            client.DownloadFile("https://ucs-up.000webhostapp.com/UCS_Updater.dat", @"Tools/Updater.exe");
-            Thread.Sleep(1000);
-            Process.Start(@"Tools/Updater.exe");
-            Environment.Exit(0);
-        }
     }
 }
